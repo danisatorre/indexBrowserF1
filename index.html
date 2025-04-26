@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Índex</title>
+  <link rel="icon" href="images/braveLogo.webp">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="news.js"></script>
+</head>
+<body>
+  <h1>Página de Inicio</h1>
+  
+  <!-- Buscador de Google -->
+  <form class="search-bar" action="https://www.google.com/search" method="get">
+    <input type="text" name="q" placeholder="Buscar en Google..." required>
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+  
+  <div class="grid" id="favoritos">
+    <!-- Recuadros con enlaces personalizados -->
+    <a class="card" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+    <a class="card" href="https://drive.google.com"><i class="fab fa-google-drive"></i></a>
+    <a class="card" href="https://photos.google.com"><i class="fas fa-camera-retro"></i></a>
+    <a class="card" href="https://www.twitch.tv"><i class="fab fa-twitch"></i></a>
+    <a class="card" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+    <a class="card" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+    <a class="card" href="https://web.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+    <a class="card" href="https://www.speedtest.net/es"><i class="fas fa-tachometer-alt"></i></a>
+    <a class="card" href="https://www.virustotal.com"><i class="fas fa-shield-alt"></i></a>
+    <a class="card" href="http://localhost/0_intro"><i class="fas fa-code"></i></a>
+  </div>
+
+  <!-- Noticias sobre F1 -->
+  <div id="f1-news">
+    <h2>Actualidad sobre la Fórmula 1</h2>
+    <div id="news-container"></div>
+  </div>
+</body>
+</html>
